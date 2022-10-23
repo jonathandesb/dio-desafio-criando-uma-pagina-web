@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO - Criando uma página Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="inicio">Como funciona o HTML?</h1>
+    <hr>
+    <img src="assets/img/HTML.jpg" alt="Imagem ilustrativa">
+    <ul>
+        <li><a href="#tags">O que são Tags HTML?</a></li>
+        <li><a href="#estrutura">Qual a estrutura básica de um documento HTML?</a></li>
+        <li><a href="#titulo">Tags de títulos</a></li>
+        <li><a href="#texto">Tags de textos</a></li>
+        <li><a href="#lista">Tags de listas</a></li>
+        <li><a href="#link">Tags de links</a></li>
+    </ul>
+
+    <h2 id="tags">O que são tags HTML?</h2>
+    <p> As tags são usadas para informar ao navegador a estrutura do site. 
+        Ou seja, quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página. 
+        A principal característica das tags é estarem sempre dentro dos sinais de <strong> “maior que” e “menor que”, ou seja: &lt;&gt;.</strong> 
+        As tags que precisam de fechamento possuem a sintaxe <tag> </tag>, já as que não precisam de fechamento possuem como estrutura <tag/>.
+    </p>
+    <small><a href="#inicio">voltar</a></small>
+
+    <h2 id="estrutura">Qual a estrutura básica de um documento HTML?</h2>
+    <p>Para um documento <strong>HTML</strong> ser válido precisa seguir obrigatoriamente uma estrutura composta pelas tags <strong>html</strong>, <strong>head</strong> e <strong>body</strong> e a instrução <strong>!DOCTYPE</strong>. Esta estrutura está informando aos navegadores como eles  devem considerar e interpretar estas tags</p>
+        
+    <ul>
+        <li><strong>HTML</strong> - Essa tag diz ao navegador que o que estiver dentro dela deve ser encarado como elementos de um código HTML.</li>
+        <li><strong>Doctype</strong> - O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site.</li>
+        <li><strong>Head </strong>- Contém toda as configurações do site, é como se fosse os pensamentos do site. </li>
+        <li><strong>Body</strong> - é nessa tag que todos os elementos visíveis do seu site devem ser inseridos. </li>
+    </ul>
+    <small><a href="#inicio">voltar</a></small>
+
+    <h2 id="estrutura">Tags de Títulos</h2>
+    <p>As tags de título possuem valor semântico, variando entre seis níveis hierárquicos.</p>
+    <h1>Olá, eu sou o H1</h1>
+    <h2>Olá, eu sou o H2</h2>
+    <h3>Olá, eu sou o H3</h3>
+    <h4>Olá, eu sou o H4</h4>
+    <h5>Olá, eu sou o H5</h5>
+    <h6>Olá, eu sou o H6</h6>
+
+    <small><a href="#inicio">voltar</a></small>
+
+    <h2 id="texto">Tags de Textos</h2>
+    <p>As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc.</p>
+    <ul>
+        <li><strong>&lt;p&gt;&lt;/p&gt;</strong> - Utilizada para criação de parágrafos.</li>
+        <li><strong>&lt;span&gt;&lt;/span&gt;</strong> - Pode ser bem parecida com a tag de parágrafos, mas ela costumam ser utilizadas apenas para pequenas informações, como legendas de um formulário, legendas de uma imagem, etc... </li>
+        <li><strong>&lt;hr&gt;</strong> - Criação de uma linha horizontal</li>
+        <li><strong>&lt;br&gt;</strong> - Utilizada para quebra de linha</li>
+        <li><strong>&lt;em&gt;</strong> - utilizada para por o texto em italico </li>
+        <li><strong>&lt;mark&gt;</strong> - Utilizada para marcar um texto</li>
+        <li><strong>&lt;strong&gt;</strong> - Utilizada para deixar o texto em negrito</li>
+    </ul>
+    <small><a href="#inicio">voltar</a></small>
+
+    <h2>Tags de listas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p> Para poder criar uma lista, podemos utilizar uma lista ordenada com as tags <strong>&lt;ol&gt;&lt;/ol&gt;</strong> e para criação de uma lista não ordenada utilizamos as tags <strong>&lt;ul&gt;&lt;/ul&gt;</strong> e para criação dos itens dessas listas? utilizamos as tags <strong>&lt;li&gt;&lt;/li&gt;</strong>
+    </p>
+    <small><a href="#inicio">voltar</a></small>
+
+    <h2>Tags de links</h2>
+    <p>A HTML usa a tag <strong>&lt;a&gt;&lt;/a&gt;</strong> (âncora) para criar um vínculo (link) com outro documento. Uma âncora pode apontar para qualquer recurso na Web: uma página em HTML, uma imagem, um arquivo de som, um filme, etc. Além do atributo href, também podemos incluir o atributo target dentro da tag <strong>&lt;a&gt;&lt;/a&gt;</strong>. Esse atributo informa ao navegador como o redirecionamento deverá ocorrer, abrindo a página na mesma janela/aba do navegador ou abrindo uma nova janela/aba.</p>
+    <h3>Os atributos são:</h3>
+    <ul>
+        <li><strong>_blank:</strong> abre a página em uma nova janela/aba.</li>
+        <li><strong>_self:</strong> abre a página na mesma janela.</li>
+        <li><strong>_parent:</strong> abre a página na mesma janela do link.</li>
+        <li><strong>_top:</strong> cancela todos os demais frames e abre a nova página no mesmo navegador.</li>
+    </ul>
+    <small><a href="#inicio">voltar</a></small>
+
+</body>
+</html>
